@@ -66,10 +66,10 @@
       "videoUrl": "http://example.com/music_stream2.m3u8"
     },
     {
-      "name": "News Channel 2",
+      "name": "ABP News",
       "category": "News",
-      "imageUrl": "http://example.com/news_logo2.png",
-      "videoUrl": "http://example.com/news_stream2.m3u8"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/ABP_News_logo.svg/512px-ABP_News_logo.svg.png",
+      "videoUrl": "https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8"
     }
   ]
   
