@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Org API Key</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .api-key-display {
+            font-size: 18px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+
+        .api-info {
+            margin: 20px 0;
+        }
+
+        .api-info p {
+            margin: 10px 0;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #1e90ff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #007bff;
+            transform: translateY(-2px);
+        }
+
+        .copy-notice {
+            text-align: center;
+            color: green;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Your IPTV Org API Key</h1>
+        
+        <!-- API Key Display -->
+        <div class="api-key-display" id="api-key-display">https://drfiles.github.io/IPTV-ORG/api/channels.json</div>
+
+        <!-- Copy Button -->
+        <button id="copy-api-key" class="button">Copy API Key</button>
+
+        <!-- Copy Confirmation Message -->
+        <div id="copy-notice" class="copy-notice"></div>
+
+        <!-- Information on API Key Usage -->
+        <div class="api-info">
+            <h2>How to Use Your API Key</h2>
+            <p>Your API key allows you to access a variety of TV channels available through the IPTV Org API. To start using the API, follow these steps:</p>
+            <ol>
+                <li>Include your API key in the request header as follows:</li>
+                <pre><code>Authorization: Bearer YOUR_API_KEY</code></pre>
+                <li>Make a GET request to the following endpoint to retrieve channel information:</li>
+                <pre><code>GET https://api.iptv-org.com/channels</code></pre>
+                <li>The response will include a list of TV channels that you can integrate into your application or media player.</li>
+            </ol>
+            <p>For more detailed documentation, visit the <a href="api-doc.html">API Documentation</a> page.</p>
+        </div>
+    </div>
+
+    <script>
+        // Copy API key to clipboard
+        document.getElementById('copy-api-key').addEventListener('click', function() {
+            const apiKeyText = document.getElementById('api-key-display').textContent;
+            navigator.clipboard.writeText(apiKeyText).then(() => {
+                document.getElementById('copy-notice').textContent = 'API key copied to clipboard!';
+            });
+        });
+
+        
+    </script>
+    
+</body>
+</html>

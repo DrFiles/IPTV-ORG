@@ -19,3 +19,5 @@ document.querySelector('#api-key-form').addEventListener('submit', function(e) {
     // Here you can add AJAX or Fetch API code to submit the form data to your server
     alert('API Key requested successfully! Please check your email.');
 });
+
+
