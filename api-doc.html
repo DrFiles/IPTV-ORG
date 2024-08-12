@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation</title>
+    <link rel="stylesheet" href="doc-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>API Documentation</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#authentication">Authentication</a></li>
+                    <li><a href="#endpoints">Endpoints</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="introduction" class="section">
+        <div class="container">
+            <h2>Introduction</h2>
+            <p>Welcome to the API documentation for our app. This guide provides all the information you need to integrate with our API, including authentication, endpoints, and code examples.</p>
+        </div>
+    </section>
+
+    <section id="authentication" class="section">
+        <div class="container">
+            <h2>Authentication</h2>
+            <p>To access our API, you need to include an API key in your requests. You can obtain an API key by signing up on our platform.</p>
+            <pre><code>GET /api/v1/resource HTTP/1.1
+Host: api.yourapp.com
+Authorization: Bearer YOUR_API_KEY</code></pre>
+        </div>
+    </section>
+
+    <section id="endpoints" class="section">
+        <div class="container">
+            <h2>Endpoints</h2>
+            <h3>1. Get User Info</h3>
+            <p>Retrieve information about a specific user.</p>
+            <pre><code>GET /api/v1/users/{user_id}</code></pre>
+
+            <h3>2. Create New User</h3>
+            <p>Create a new user in the system.</p>
+            <pre><code>POST /api/v1/users
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}</code></pre>
+        </div>
+    </section>
+
+    <section id="examples" class="section">
+        <div class="container">
+            <h2>Examples</h2>
+            <p>Here are some examples of how to use the API in various programming languages.</p>
+            
+            <h3>JavaScript (Fetch API)</h3>
+            <pre><code>fetch('https://api.yourapp.com/v1/users', {
+  method: 'GET',
+  headers: {
+    'Authorization': 'Bearer YOUR_API_KEY'
+  }
+})
+.then(response => response.json())
+.then(data => console.log(data));</code></pre>
+
+            <h3>Python (Requests)</h3>
+            <pre><code>import requests
+
+url = "https://api.yourapp.com/v1/users"
+headers = {
+    "Authorization": "Bearer YOUR_API_KEY"
+}
+
+response = requests.get(url, headers=headers)
+print(response.json())</code></pre>
+        </div>
+    </section>
+
+    <script src="doc-script.js"></script>
+</body>
+</html>

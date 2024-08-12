@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="app-icon">
+                <img src="app-icon.png" alt="App Icon">
+            </div>
+            <h1 class="app-title">Your App Name</h1>
+            <p class="app-description">This is a brief description of your app. Highlight its main features and benefits.</p>
+            <a href="#download" class="download-button">Download Now</a>
+        </div>
+    </header>
+
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2>Download the App</h2>
+            <a href="your-app-download-link" class="download-button">Download</a>
+        </div>
+    </section>
+
+    <section id="api" class="api-section">
+        <div class="container">
+            <h2>API Access</h2>
+            <p>Our app offers a powerful API for developers. You can integrate it into your own applications to enhance functionality.</p>
+            <a href="api-doc.html" class="api-button">View API Documentation</a>
+            <a href="./api/channels.json" class="api-button get-api-key-button">Get API Key</a>
+        </div>
+    </section>
+
+    <section id="api-key" class="api-key-section">
+        <div class="container">
+            <h2>Request an API Key</h2>
+            <form id="api-key-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <button type="submit" class="api-button">Request API Key</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
