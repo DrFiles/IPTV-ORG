@@ -82,6 +82,61 @@
         "category": "Entertainment",
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR9TbcxD0Jkks344dHfkxRw5B_07floLcloQ&s",
         "videoUrl": "https://dai.google.com/ssai/event/gsfwKz83TGOa7Mv-RswgaA/master.m3u8"
+      },
+    {
+        "name": "& Pic HD",
+        "category": "Movies",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxBE6fMh4COB_NHyL_7qbFHnFFYGYszRd1A&s",
+        "videoUrl": "https://dai.google.com/ssai/event/MhaQnX2fRNCTN-9HcFBb2A/master.m3u8"
+      } ,
+    {
+        "name": "Zee Anmol",
+        "category": "Entertainment",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPY_xmlYVVNrwEjwgcFDoOzxRX2ZKA66-cU_53LSkfv3oRmexhEjq2Amh5&s=10",
+        "videoUrl": "https://dai.google.com/ssai/event/lVOtBhCrRBi6ZoVIvdOvqg/master.m3u8"
+      },
+    {
+        "name": "Shemaroo Bollywood",
+        "category": "Movies",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0wkiPJaXUpCcED0yI4auDpYX1_K5rJNypMA&s",
+        "videoUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8"
       }
+      ,
+    {
+        "name": "Zoom Tv",
+        "category": "Music",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkqLmGJeUjRAlquk_iS4Uwb_ikyeF6lXLeAw&s",
+        "videoUrl": "https://pubads.g.doubleclick.net/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8"
+      },
+      {
+          "name": "F TV",
+          "category": "Entertainment",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB4tylkTDQjn6l58E7etpKAp8lDhI9v3kCqA&s",
+          "videoUrl": "https://i.mjh.nz/SamsungTVPlus/ATBA10000075C.m3u8"
+        },
+    {
+        "name": "Fitness PLUS",
+        "category": "Entertainment",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXwkXjbg3RhBPpDO1EEucXjcRknT2Ga6NKkA&usqp=CAU",
+        "videoUrl": "https://streamer103.neterra.tv/wness/wness_SD.m3u8"
+      },
+      {
+        "name": "Discovery hd",
+        "category": "Kids",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVn1U2kUQwhu_z8Xa6I9rzxg3X1sIsiW55eA&usqp=CAU",
+        "videoUrl": "https://denver1769.pages.dev/Discovery/discovery_hd_hindi.m3u8"
+    },
+    {
+        "name": "Saga Music",
+        "category": "Music",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuJbz501D3eMb5GnNPVnPNe_Bc-uCyZpo6qg&s",
+        "videoUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-sagamusic-xiaomi/playlist.m3u8"
+     },
+     {
+     "name": "9XJhakaas",
+    "category": "Music",
+    "imageUrl": "https://i.imgur.com/aZ0f85I.png",
+    "videoUrl": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8"
+    }
   ]
   
