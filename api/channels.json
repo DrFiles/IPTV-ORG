@@ -369,7 +369,7 @@
    {
    "name": "Zee Talkies HD",
   "category": "Entertainment",
-  "imageUrl": "https://i.imgur.com/aZ0f85I.png",
+  "imageUrl": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11987-j9lura8g-v1/imageContent-11987-j9lura8g-m1.png",
   "videoUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1.m3u8"
   },
   {
@@ -383,7 +383,64 @@
 "category": "Sports",
 "imageUrl": "http://tv.tvzon.tv/stalker_portal/misc/logos/320/61254.png",
 "videoUrl": "https://allinonereborn.com/4ktv/m3u.php?id=65058"
+},
+{
+"name": "Zee Bollywood",
+"category": "Movies",
+"imageUrl": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-31233-jli1wlvc-v1/imageContent-31233-jli1wlvc-m1.png",
+"videoUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood1/default/zeebollywood1.m3u8"
+},
+   {
+   "name": "Zing",
+  "category": "Movies",
+  "imageUrl": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11993-j9luua9c-v1/imageContent-11993-j9luua9c-m1.png",
+  "videoUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing1/default/zing1.m3u8"
+  }
+   ,
+   {
+   "name": "Zee Action",
+  "category": "Movies",
+  "imageUrl": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11024-j8yix4g8-v1/imageContent-11024-j8yix4g8-m1.png",
+  "videoUrl": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeaction1/default/zeeaction1.m3u8"
+  },
+  {
+  "name": "CricStream",
+ "category": "Sports",
+ "imageUrl": "https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/sports_zone_cricket_horizontal-1695032322122.jpg",
+ "videoUrl": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JV_SportsHD15_DIG_MOB/Fallback/index.m3u8"
+},
+  {
+  "name": "Nick HD+",
+ "category": "Entertainment",
+ "imageUrl": "https://v3img.voot.com/resizeMedium,w_1090,h_613/v3Storage/assets/nick-hd-plus-live-channels-16x9-4-1642585145139.jpg",
+ "videoUrl": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_NickHD/JCHLS/index.m3u8"
+},
+  {
+  "name": "History TV18 HD",
+ "category": "Entertainment",
+ "imageUrl": "http://jiotv.catchup.cdn.jio.com/dare_images/images/History_HD.png",
+ "videoUrl": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=146&e=.m3u"
+}
+,
+  {
+  "name": "Zee Yuva",
+ "category": "Entertainment",
+ "imageUrl": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Yuva.png",
+ "videoUrl": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=414&e=.m3u"
 }
 
+,
+  {
+  "name": "Zee Action",
+ "category": "Movies",
+ "imageUrl": "http://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Action.png",
+ "videoUrl": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=488&e=.m3u"
+},
+  {
+  "name": "",
+ "category": "",
+ "imageUrl": "",
+ "videoUrl": ""
+}
   ]
   
