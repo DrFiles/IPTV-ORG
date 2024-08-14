@@ -53,7 +53,7 @@
 
     <div class="container">
         <h1>1-Day API Update</h1>
-        <p><strong>Date:</strong> 8/14/2024</p>
+        <p>Update date is:</p><div class="date-container" id="currentDate"></div>
         
         <h2>Objective</h2>
         <p>To implement minor updates to the Indian IPTV App API for enhanced performance and bug fixes. This update will focus on ensuring that the streaming experience remains seamless and that the API is aligned with the latest app functionalities.</p>
@@ -101,8 +101,18 @@
             </form>
         </div>
     </section> -->
-    
+    <!-- <script>
+        function updateDate() {
+            const today = new Date();
+            const dateElement = document.getElementById('currentDate');
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = today.toLocaleDateString('en-US', options);
+        }
 
+        // Call updateDate on page load to display the current date
+        window.addEventListener('load', updateDate);
+    </script> -->
+    <script src="./json/date/date.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

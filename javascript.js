@@ -1,3 +1,6 @@
+// need for error to usign for this code
+
+
 // Smooth scrolling for buttons
 document.querySelector('.download-button').addEventListener('click', function(e) {
     e.preventDefault();
@@ -24,3 +27,4 @@ document.querySelector('#api-key-form').addEventListener('submit', function(e) {
 document.getElementById('myButton').addEventListener('click', function() {
     document.getElementById('message').textContent = 'Button was clicked!';
 });
+
