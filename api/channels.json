@@ -60,10 +60,11 @@
       "videoUrl": "https://dai.google.com/ssai/event/H_ZvXWqHRGKpHcdDE5RcDA/master.m3u8"
     },
     {
+  
       "name": "SONNY BBC EARTH HD",
       "category": "Kids",
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR80yv8FTTFxoIB6ZGVXSnJeAwxGnz4skjM_Q&s",
-      "videoUrl": "https://dai.google.com/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u"
+      "videoUrl": "https://pubads.g.doubleclick.net/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8"
     },
     {
       "name": "SONY YAY",
@@ -289,10 +290,10 @@
     "videoUrl": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/index.m3u8"
 },
    {
-    "name": "SonicNick",
+    "name": "SonicNick ninja hattori",
     "category": "Kids",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7jK9kd_bbSZ34TXo5rKiKQSiDWCGCGlYQ-A&s",
-    "videoUrl": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8"
+    "imageUrl": "https://www.bing.com/th/id/OGC.01cde02455438bac5a4e6f37b28d5bca?pid=1.7&rurl=https%3a%2f%2fimages.squarespace-cdn.com%2fcontent%2fv1%2f5649f3d2e4b0c4ad07cab139%2f1464004310914-8FQZBIZWYU4KTNBWINX0%2fSonic_Spark.gif%3fformat%3d1500w&ehk=DPFnSZCTzQTth6HVQG131iWxYNTgn7ju6C5nE%2bn%2bjkI%3d",
+    "videoUrl": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8"
 },
    {
     "name": "ColorsHD",
@@ -334,7 +335,7 @@
     "name": "MTV HD",
     "category": "Music",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-65S09B9W93pDUAZy7UYpt4JqEJEoETQmQ&s",
-    "videoUrl": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_MTVHD/JCHLS/index.m3u8"
+    "videoUrl": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_MTVHD/JCHLS/index.m3u8"
 },
    {
    "name": "Inh Hindi News",
