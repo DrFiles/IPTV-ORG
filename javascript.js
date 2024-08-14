@@ -20,4 +20,7 @@ document.querySelector('#api-key-form').addEventListener('submit', function(e) {
     alert('API Key requested successfully! Please check your email.');
 });
 
-
+// JavaScript code goes here
+document.getElementById('myButton').addEventListener('click', function() {
+    document.getElementById('message').textContent = 'Button was clicked!';
+});
